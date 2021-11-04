@@ -23,6 +23,7 @@ function controller() {
         async update(req, res) {
             const updateUser = await User.findOne({ username: req.body.username })
             updateUser.name = req.body.newName;
+            updateUser.username = req.body.newUsername;
 
             const doc = await updateUser.save()
             return res.send(doc)
