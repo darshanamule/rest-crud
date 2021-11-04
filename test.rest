@@ -20,6 +20,7 @@ content-type: application/json
 {
     "newName" : "Darshana Mule",
     "username" : "darshana@gmail",
+    "newUsername" : "darshanamule@gmail",
     "password" : "password"
 }
 
